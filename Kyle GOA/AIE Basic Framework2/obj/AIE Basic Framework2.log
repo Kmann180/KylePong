@@ -1,0 +1,30 @@
+﻿Build started 9/17/2013 9:39:39 AM.
+     1>Project "F:\college\Kyle GOA\AIE Basic Framework2\AIE Basic Framework2.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "obj\AIE Basic Framework2.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I./ /I./include/ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\\" /Fd"obj\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt source\main.cpp
+         main.cpp
+     1>f:\college\kyle goa\aie basic framework2\source\main.cpp(54): error C2061: syntax error : identifier 'PLAYER1_W'
+     1>f:\college\kyle goa\aie basic framework2\source\main.cpp(54): error C2059: syntax error : ')'
+     1>f:\college\kyle goa\aie basic framework2\source\main.cpp(54): error C2143: syntax error : missing ')' before ';'
+     1>f:\college\kyle goa\aie basic framework2\source\main.cpp(54): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\college\kyle goa\aie basic framework2\source\main.cpp(57): error C2061: syntax error : identifier 'PLAYER2_W'
+     1>f:\college\kyle goa\aie basic framework2\source\main.cpp(57): error C2059: syntax error : ')'
+     1>f:\college\kyle goa\aie basic framework2\source\main.cpp(57): error C2143: syntax error : missing ')' before ';'
+     1>f:\college\kyle goa\aie basic framework2\source\main.cpp(57): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\college\kyle goa\aie basic framework2\source\main.cpp(59): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>f:\college\kyle goa\aie basic framework2\source\main.cpp(59): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>f:\college\kyle goa\aie basic framework2\source\main.cpp(60): error C2061: syntax error : identifier 'BALL_W'
+     1>f:\college\kyle goa\aie basic framework2\source\main.cpp(60): error C2059: syntax error : ')'
+     1>f:\college\kyle goa\aie basic framework2\source\main.cpp(60): error C2143: syntax error : missing ')' before ';'
+     1>f:\college\kyle goa\aie basic framework2\source\main.cpp(60): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\college\kyle goa\aie basic framework2\source\main.cpp(79): error C2144: syntax error : 'unsigned int' should be preceded by ')'
+     1>f:\college\kyle goa\aie basic framework2\source\main.cpp(79): error C2660: 'MoveSprite' : function does not take 0 arguments
+     1>f:\college\kyle goa\aie basic framework2\source\main.cpp(79): error C2059: syntax error : ')'
+     1>f:\college\kyle goa\aie basic framework2\source\main.cpp(94): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>Done Building Project "F:\college\Kyle GOA\AIE Basic Framework2\AIE Basic Framework2.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.73
